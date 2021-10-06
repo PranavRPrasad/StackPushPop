@@ -27,12 +27,12 @@ catch (EmptyStackException e)
 System.out.print("empty stack");  
 }  
 }  
-//performing push operation  
+//performing push 
 static void pushelmnt(Stack stk, int x)   
 {  
 //invoking push() method      
 stk.push(new Integer(x));  
-System.out.println("push -> " + x);  
+System.out.print("push -> " + x);  
 //prints modified stack  
 System.out.println("stack: " + stk);  
 }  
