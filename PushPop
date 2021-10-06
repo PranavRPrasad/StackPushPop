@@ -27,7 +27,7 @@ catch (EmptyStackException e)
 System.out.print("empty stack");  
 }  
 }  
-//performing push 
+
 static void pushelmnt(Stack stk, int x)   
 {  
 //invoking push()     
