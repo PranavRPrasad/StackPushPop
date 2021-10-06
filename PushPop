@@ -3,9 +3,9 @@ public class StackPushPopExample
 {  
 public static void main(String args[])   
 {  
-//creating an object of Stack class  
+//creating an object of stack
 Stack <Integer> stk = new Stack<>();  
-System.out.println("stack: " + stk);  
+System.out.print("stack: " + stk);  
 //pushing elements into the stack  
 pushelmnt(stk, 20);  
 pushelmnt(stk, 13);  
