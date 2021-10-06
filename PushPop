@@ -30,7 +30,7 @@ System.out.print("empty stack");
 //performing push 
 static void pushelmnt(Stack stk, int x)   
 {  
-//invoking push() method      
+//invoking push()     
 stk.push(new Integer(x));  
 System.out.print("push -> " + x);  
 //prints modified stack  
@@ -42,7 +42,7 @@ static void popelmnt(Stack stk)
 System.out.print("pop -> ");  
 //invoking pop() method   
 Integer x = (Integer) stk.pop();  
-System.out.println(x);  
+System.out.print(x);  
 //prints modified stack  
 System.out.println("stack: " + stk);  
 }  
