@@ -17,7 +17,7 @@ pushelmnt(stk, 18);
 
 popelmnt(stk);  
 popelmnt(stk);  
-//throws exception if the stack is empty  
+ 
 try   
 {  
 popelmnt(stk);  
