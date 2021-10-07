@@ -44,10 +44,10 @@ static void pushelmnt(Stack stk, int x)
  static void popelmnt(Stack stk)   
  {  
   System.out.print("pop -> ");  
- //invoking pop() method   
- Integer x = (Integer) stk.pop();  
- System.out.print(x);   
- System.out.println("stack: " + stk);  
+  //invoking pop() method   
+  Integer x = (Integer) stk.pop();  
+  System.out.print(x);   
+  System.out.println("stack: " + stk);  
  }  
 }
 
